@@ -152,14 +152,18 @@
             KeyboardInterrupt
 
 
-  ##---------------------------------------------
-  # soulution > 
-  ## Worked solution was > Get correct account name from the below query  
+  ##---------------------------------------------------
+  # Solution > 
+  ## Worked solution was > Get the correct account name from the below query  
+  Note: The Snowflake web portal gives the account name, but it did not work for me. The only worked account name got from the below query 
   
   ![image](https://github.com/user-attachments/assets/3a715482-6115-4452-9689-76cb22009edd)
 
-  
-  #
+# We can check if there is a network connection issue from the two commands 
        nslookup vx98979.ap-south-1.aws.snowflakecomputing.com
+       curl -v https://vx98979.ap-south-1.aws.snowflakecomputing.com:443/session/v1/login-request
 
+ ![image](https://github.com/user-attachments/assets/467adc41-c66d-42af-a86c-a1dd713455d9)
+
+##-----------------------------------------------------
    
